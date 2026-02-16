@@ -1,0 +1,100 @@
+.class-page {
+  min-height: 100vh;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  width: 140%;
+}
+
+/* TITLE */
+.page-title {
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* FORM CARD */
+.form-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 16px;
+  margin-bottom: 35px;
+}
+
+/* FORM GRID */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-grid input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* ADD BUTTON */
+.add-btn {
+  background: #22c55e;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #16a34a;
+}
+
+/* TABLE CARD */
+.table-card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  padding: 25px;
+  border-radius: 16px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ACTION BUTTONS */
+.action-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.update-btn {
+  background: #3b82f6;
+}
+
+.delete-btn {
+  background: #ef4444;
+}

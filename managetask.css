@@ -1,0 +1,167 @@
+/* PAGE BACKGROUND */
+.task-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  width: 180%;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #000000, #1a0000, #8b0000);
+}
+
+/* MAIN CONTAINER */
+.task-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.task-header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  background: linear-gradient(135deg, #ff0000, #990000);
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 0, 0, 0.7);
+}
+
+/* FORM SECTION */
+.task-form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* INPUTS */
+.task-form input,
+.task-form select {
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  min-width: 220px;
+  font-size: 15px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  backdrop-filter: blur(8px);
+}
+
+.task-form input::placeholder {
+  color: #ddd;
+}
+
+/* CREATE BUTTON */
+.create-btn {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  border: none;
+  padding: 14px 26px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-btn:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(255, 80, 50, 0.8);
+}
+
+/* TASK GRID */
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* TASK CARD */
+.task-card {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  padding: 25px;
+  border-radius: 18px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  transition: 0.35s;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.task-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* TASK TITLE */
+.task-card h3 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* TASK TEXT */
+.task-card p {
+  font-size: 14px;
+  color: #eee;
+  margin-bottom: 18px;
+}
+
+/* BUTTON GROUP */
+.task-card .btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* EDIT BUTTON */
+.edit-btn {
+  background: linear-gradient(135deg, #22c55e, #15803d);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.7);
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background: linear-gradient(135deg, #ef4444, #991b1b);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.8);
+}
